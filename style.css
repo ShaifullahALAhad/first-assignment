@@ -1,0 +1,76 @@
+body {
+  font-family: "Rubik Maze", cursive;
+}
+p {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1 {
+color: orangered;
+}
+
+h2 {
+color: brown;
+}
+
+p {
+    color: deeppink;
+}
+
+.futani {
+    color: blue;
+    font-weight: 600;
+}
+
+#golden {
+    color: gold;
+    font-weight: 600;
+}
+
+button {
+    background-image: linear-gradient(green, blue);
+    padding: 0px 30px;
+}
+
+button p{
+    color: lightsalmon;
+    font-weight: 800;
+}
+
+.ex {
+    color: red;
+}
+
+section {
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 10px 50px;
+}
+
+.right {
+    background-image: url(Images/bg1.jpg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.romen {
+    margin-top: -100px;
+    margin-right: -250px;
+}
+
+a {
+    text-decoration: none;
+}
