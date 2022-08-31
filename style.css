@@ -40,6 +40,7 @@ p {
 button {
     background-image: linear-gradient(green, blue);
     padding: 0px 30px;
+    border: none;
 }
 
 button p{
@@ -60,7 +61,7 @@ section {
     padding: 10px 50px;
 }
 
-.right {
+.rightone {
     background-image: url(Images/bg1.jpg);
     background-repeat: no-repeat;
     margin-top: 100px;
@@ -73,4 +74,23 @@ section {
 
 a {
     text-decoration: none;
+}
+
+.lefttwo {
+    padding-top: 200px;
+    background-image: url(Images/bg2.jpg);
+    background-repeat: no-repeat;
+}
+
+.secondrightbtn {
+    background-image: linear-gradient(red, yellow);
+    border: none;
+}
+
+.secondrightp {
+color: blue;
+}
+
+section {
+    margin: 100px 10px;
 }
