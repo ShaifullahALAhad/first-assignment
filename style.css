@@ -16,112 +16,128 @@ h2 {
 }
 
 h1 {
-color: orangered;
+  color: orangered;
 }
 
 h2 {
-color: brown;
+  color: brown;
 }
 
 p {
-    color: deeppink;
+  color: deeppink;
 }
 
 .futani {
-    color: blue;
-    font-weight: 600;
+  color: blue;
+  font-weight: 600;
 }
 
 #golden {
-    color: gold;
-    font-weight: 600;
+  color: gold;
+  font-weight: 600;
 }
 
 button {
-    background-image: linear-gradient(green, blue);
-    padding: 0px 30px;
-    border: none;
+  background-image: linear-gradient(green, blue);
+  padding: 0px 30px;
+  border: none;
 }
 
-button p{
-    color: lightsalmon;
-    font-weight: 800;
+button p {
+  color: lightsalmon;
+  font-weight: 800;
 }
 
 .ex {
-    color: red;
+  color: red;
 }
 
 .flexable-container {
-    display: flex;
+  display: flex;
 }
 
 .half-width {
-    width: 50%;
-    padding: 10px 50px;
+  width: 50%;
+  padding: 10px 50px;
 }
 
 .rightone {
-    background-image: url(Images/bg1.jpg);
-    background-repeat: no-repeat;
-    margin-top: 100px;
+  background-image: url(Images/bg1.jpg);
+  background-repeat: no-repeat;
+  margin-top: 100px;
 }
 
 .romen {
-    margin-top: -100px;
-    margin-right: -250px;
+  margin-top: -100px;
+  margin-right: -250px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .lefttwo {
-    padding-top: 200px;
-    background-image: url(Images/bg2.jpg);
-    background-repeat: no-repeat;
-    margin-left: 50px;
+  padding-top: 200px;
+  background-image: url(Images/bg2.jpg);
+  background-repeat: no-repeat;
+  margin-left: 50px;
 }
 
 .secondrightbtn {
-    background-image: linear-gradient(red, yellow);
-    border: none;
+  background-image: linear-gradient(red, yellow);
+  border: none;
 }
 
 .secondrightp {
-color: blue;
+  color: blue;
 }
 
 section {
-    margin: 100px 10px;
+  margin: 100px 10px;
 }
 
 .bp {
-text-decoration: underline;
-color: darkgreen;
-font-weight: 800;
+  text-decoration: underline;
+  color: darkgreen;
+  font-weight: 800;
 }
 .half-width-three {
-    width: 30%;
-    box-shadow: 10px 10px 30px gray;
-    text-align: center;
-    margin: 0 10px;
-    padding: 20px;
-    border-radius: 10px;
+  width: 30%;
+  box-shadow: 10px 10px 30px gray;
+  text-align: center;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .thirdsec {
-    background-image: url(Images/hati.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+  background-image: url(Images/hati.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .allp {
-    color: black;
-    text-shadow: 1px 1px blue;
+  color: black;
+  text-shadow: 1px 1px blue;
 }
 
-.thirdsec>h1 {
+.thirdsec > h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#border-left-one {
+  border-left: 5px solid red;
+}
+
+#border-left-two {
+  border-left: 5px solid blue;
+}
+
+#border-left-three {
+  border-left: 5px solid green;
+}
+
+footer {
     text-align: center;
-    text-decoration:underline;
 }
