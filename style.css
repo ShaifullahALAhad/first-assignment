@@ -95,3 +95,33 @@ color: blue;
 section {
     margin: 100px 10px;
 }
+
+.bp {
+text-decoration: underline;
+color: darkgreen;
+font-weight: 800;
+}
+.half-width-three {
+    width: 30%;
+    box-shadow: 10px 10px 30px gray;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.thirdsec {
+    background-image: url(Images/hati.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.allp {
+    color: black;
+    text-shadow: 1px 1px blue;
+}
+
+.thirdsec>h1 {
+    text-align: center;
+    text-decoration:underline;
+}
