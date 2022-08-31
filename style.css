@@ -52,11 +52,11 @@ button p{
     color: red;
 }
 
-section {
+.flexable-container {
     display: flex;
 }
 
-.left, .right {
+.half-width {
     width: 50%;
     padding: 10px 50px;
 }
@@ -80,6 +80,7 @@ a {
     padding-top: 200px;
     background-image: url(Images/bg2.jpg);
     background-repeat: no-repeat;
+    margin-left: 50px;
 }
 
 .secondrightbtn {
